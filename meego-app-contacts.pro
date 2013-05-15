@@ -12,7 +12,7 @@ CONFIG += qt \
         link_pkconfig
 
 #PKGCONFIG += telepathy-qml-lib
-PKGCONFIG += QtContacts QtVersit
+PKGCONFIG += QtVersit
 
 TARGET = $$qtLibraryTarget($$TARGET)
 DESTDIR = $$TARGET
